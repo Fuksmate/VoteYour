@@ -2,7 +2,9 @@ h1{
   text-align: center;
 }
 .languages{
-  margin-left: 25%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 .language {
   width: 100px;
@@ -14,6 +16,10 @@ h1{
 }
 
 .languageName {
+  text-align: center;
+}
+.languageVote {
+  padding: 4px;
   text-align: center;
 }
 
@@ -38,4 +44,12 @@ h1{
 }
 .voteCount{
   float: left;
+}
+.App{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.Box{
+  margin-top: 70vh;
 }
