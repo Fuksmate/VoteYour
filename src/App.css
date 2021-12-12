@@ -1,0 +1,41 @@
+h1{
+  text-align: center;
+}
+.languages{
+  margin-left: 25%;
+}
+.language {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 10px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.languageName {
+  text-align: center;
+}
+
+.languageButton {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  text-decoration: none;
+  border: none;
+  background-color: white;
+  border-radius: 30%;
+  font-size: 19px;
+}
+.languageButton:hover{
+  background-color: beige;
+  font-size: 23px;
+}
+.votes{
+  margin-top: 30vh;
+  width: 100%;
+}
+.voteCount{
+  float: left;
+}
